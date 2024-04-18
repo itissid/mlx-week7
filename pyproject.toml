@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "mlx-week7"
+version = "0.1.0"
+description = ""
+authors = ["Sidharth Gupta <itissid@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.13"
+transformers = "^4.39.3"
+datasets = "^2.18.0"
+peft = "^0.10.0"
+accelerate = "^0.29.2"
+bitsandbytes = "^0.43.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
